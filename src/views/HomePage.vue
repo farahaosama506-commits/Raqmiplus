@@ -7,11 +7,8 @@
       <div class="max-w-7xl mx-auto px-4 md:px-8 h-16 md:h-20 flex items-center justify-between">
         <!-- Logo -->
         <div class="flex-shrink-0">
-          <a
-            href="#"
-            class="flex items-center gap-2 text-2xl md:text-3xl font-bold bg-gradient-to-l from-purple-300 via-purple-400 to-purple-500 bg-clip-text text-transparent"
-          >
-            {{ $t('hero.title') }}
+          <a href="#" class="inline-flex items-center">
+            <LogoIcon />
           </a>
         </div>
 
@@ -71,6 +68,7 @@ import HeroSection from '../components/HeroSection.vue'
 import LiveNumbersSection from '../components/LiveNumbersSection.vue'
 import BundlesSection from '../components/BundlesSection.vue'
 import PaymentFooter from '../components/PaymentFooter.vue'
+import LogoIcon from '../components/LogoIcon.vue'
 
 const { t } = useI18n()
 

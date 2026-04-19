@@ -10,6 +10,9 @@
 
     <!-- Main Content -->
     <div class="relative z-10 text-center max-w-4xl">
+      <div class="flex items-center justify-center mb-8">
+        <LogoIcon />
+      </div>
       <!-- Logo/Title -->
       <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-l from-purple-300 via-purple-400 to-purple-500 bg-clip-text text-transparent">
         {{ $t('hero.title') }}
@@ -54,6 +57,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import LogoIcon from './LogoIcon.vue'
 
 const { t } = useI18n()
 
