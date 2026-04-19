@@ -20,7 +20,7 @@
     "buyNow": "شراء الآن"
   },
   "payment": {
-    "footer": "طرق الدفع المتاحة:",
+    "footer": "قناتنا التيليجرام",
     "syriatelCash": "سيريتل كاش",
     "chamCash": "شام كاش",
     "copyPaymentNumber": "تم نسخ رقم الدفع: {number}"

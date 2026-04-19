@@ -228,7 +228,7 @@ onMounted(() => {
 })
 
 const selectedPaymentMethod = ref('syriatel')
-const paymentNumber = ref('099' + String(Math.floor(Math.random() * 10000000)).padStart(7, '0'))
+const paymentNumber = ref('932677477')
 const transferId = ref('')
 const isProcessing = ref(false)
 const showSuccessModal = ref(false)

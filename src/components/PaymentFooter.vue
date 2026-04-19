@@ -9,22 +9,10 @@
 
       <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
         <!-- Syriatel Cash Button -->
-        <button
-          @click="handlePayment('سيريتل كاش')"
-          class="w-full md:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-l from-orange-400 to-orange-600 hover:from-orange-300 hover:to-orange-500 text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-slate-900"
-        >
-          <span class="text-2xl">📱</span>
-          <span>{{ $t('payment.syriatelCash') }}</span>
-        </button>
+      
 
         <!-- Cham Cash Button -->
-        <button
-          @click="handlePayment('شام كاش')"
-          class="w-full md:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-l from-emerald-400 to-emerald-600 hover:from-emerald-300 hover:to-emerald-500 text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-slate-900"
-        >
-          <span class="text-2xl">💚</span>
-          <span>{{ $t('payment.chamCash') }}</span>
-        </button>
+    
 
         <!-- Telegram Contact Button -->
         <a
