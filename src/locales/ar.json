@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "numbers": "الأرقام",
+    "bundles": "الملفات"
+  },
+  "hero": {
+    "title": "رقمي بلس",
+    "subtitle": "أرقام عالمية للتفعيل والشات",
+    "browseNumbers": "تصفح الأرقام"
+  },
+  "liveNumbers": {
+    "title": "⚡ أحدث الأرقام المباعة",
+    "copy": "نسخ",
+    "available": "متاح",
+    "sold": "تم البيع"
+  },
+  "bundles": {
+    "title": "📦 باقات وملفات الأرقام",
+    "buyNow": "شراء الآن"
+  },
+  "payment": {
+    "footer": "طرق الدفع المتاحة:",
+    "syriatelCash": "سيريتل كاش",
+    "chamCash": "شام كاش",
+    "copyPaymentNumber": "تم نسخ رقم الدفع: {number}"
+  },
+  "userInfo": {
+    "title": "معلومات المشتري",
+    "firstName": "الاسم الأول",
+    "firstNamePlaceholder": "أدخل الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "lastNamePlaceholder": "أدخل الاسم الأخير",
+    "whatsapp": "رقم الواتس اب",
+    "whatsappPlaceholder": "مثال: +201012345678",
+    "age": "العمر",
+    "agePlaceholder": "أدخل عمرك",
+    "terms": "أوافق على الشروط والأحكام",
+    "proceedToPayment": "متابعة للدفع",
+    "cancel": "إلغاء",
+    "required": "حقل مطلوب",
+    "invalidWhatsapp": "رقم الواتس اب غير صحيح (يجب أن يبدأ بـ + ويحتوي على 10-15 رقم)",
+    "invalidAge": "العمر يجب أن يكون بين 16 و 99 سنة",
+    "termsRequired": "يجب الموافقة على الشروط والأحكام"
+  },
+  "paymentPage": {
+    "selectPaymentMethod": "اختر طريقة الدفع",
+    "bundleSummary": "ملخص الطلب",
+    "comingSoon": "قريباً",
+    "price": "السعر",
+    "transferNumber": "رقم التحويل (سيريتل كاش)",
+    "copyNumber": "نسخ الرقم",
+    "instructions": "بعد إتمام عملية التحويل، الرجاء إدخال رقم عملية التحويل أدناه",
+    "transferId": "رقم عملية التحويل (Transfer ID)",
+    "transferIdPlaceholder": "مثال: 123456789",
+    "confirmOrder": "تأكيد الطلب",
+    "invalidTransferId": "رقم العملية يجب أن يكون بين 6-20 رقم",
+    "processing": "جاري المعالجة...",
+    "back": "العودة"
+  },
+  "success": {
+    "title": "✅ تم استلام طلبك بنجاح!",
+    "message": "شكراً {firstName}! تم استلام طلبك. سيقوم فريقنا بمراجعة عملية التحويل خلال 10 دقائق. سيتم إرسال ملف الأرقام إلى رقم الواتس اب الخاص بك: {whatsapp}",
+    "backToHome": "العودة للرئيسية"
+  },
+  "errors": {
+    "pleaseCompleteForm": "الرجاء إكمال جميع الحقول بشكل صحيح",
+    "orderFailed": "فشل إنشاء الطلب، يرجى المحاولة مجدداً"
+  },
+  "notifications": {
+    "numberCopied": "تم نسخ الرقم بنجاح",
+    "success": "تمت العملية بنجاح",
+    "error": "حدث خطأ"
+  }
+}

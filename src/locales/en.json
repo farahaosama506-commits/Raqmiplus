@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Home",
+    "numbers": "Numbers",
+    "bundles": "Bundles"
+  },
+  "hero": {
+    "title": "Raqmi Plus",
+    "subtitle": "International Numbers for Activation & Chat",
+    "browseNumbers": "Browse Numbers"
+  },
+  "liveNumbers": {
+    "title": "⚡ Latest Sold Numbers",
+    "copy": "Copy",
+    "available": "Available",
+    "sold": "Sold"
+  },
+  "bundles": {
+    "title": "📦 Number Bundles & Packages",
+    "buyNow": "Buy Now"
+  },
+  "payment": {
+    "footer": "Available Payment Methods:",
+    "syriatelCash": "Syriatel Cash",
+    "chamCash": "Cham Cash",
+    "copyPaymentNumber": "Payment number copied: {number}"
+  },
+  "userInfo": {
+    "title": "Buyer Information",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Enter first name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Enter last name",
+    "whatsapp": "WhatsApp Number",
+    "whatsappPlaceholder": "Example: +201012345678",
+    "age": "Age",
+    "agePlaceholder": "Enter your age",
+    "terms": "I agree to the terms and conditions",
+    "proceedToPayment": "Proceed to Payment",
+    "cancel": "Cancel",
+    "required": "This field is required",
+    "invalidWhatsapp": "Invalid WhatsApp number (must start with + and contain 10-15 digits)",
+    "invalidAge": "Age must be between 16 and 99 years",
+    "termsRequired": "You must agree to the terms and conditions"
+  },
+  "paymentPage": {
+    "selectPaymentMethod": "Select Payment Method",
+    "bundleSummary": "Order Summary",
+    "comingSoon": "Coming Soon",
+    "price": "Price",
+    "transferNumber": "Transfer Number (Syriatel Cash)",
+    "copyNumber": "Copy Number",
+    "instructions": "After completing the transfer, please enter your transfer ID below",
+    "transferId": "Transfer ID",
+    "transferIdPlaceholder": "Example: 123456789",
+    "confirmOrder": "Confirm Order",
+    "invalidTransferId": "Transfer ID must be between 6-20 digits",
+    "processing": "Processing...",
+    "back": "Back"
+  },
+  "success": {
+    "title": "✅ Your Order Received Successfully!",
+    "message": "Thank you {firstName}! Your order has been received. Our team will review the transfer within 10 minutes. The number file will be sent to your WhatsApp: {whatsapp}",
+    "backToHome": "Back to Home"
+  },
+  "errors": {
+    "pleaseCompleteForm": "Please complete all fields correctly",
+    "orderFailed": "Failed to create order, please try again"
+  },
+  "notifications": {
+    "numberCopied": "Number copied successfully",
+    "success": "Operation completed successfully",
+    "error": "An error occurred"
+  }
+}

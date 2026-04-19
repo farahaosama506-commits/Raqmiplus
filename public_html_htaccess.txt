@@ -1,0 +1,54 @@
+<IfModule mod_rewrite.c">
+  RewriteEngine On
+  RewriteBase /
+  
+  # لا تعيد كتابة الملفات والمجلدات الموجودة فعلاً
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # أعد توجيه جميع الطلبات إلى index.html
+  RewriteRule ^(.*)$ index.html?$1 [L,QSA]
+  
+  # إزالة .html من المسارات (اختياري)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^([^\.]+)$ $1.html [NSA,L]
+</IfModule>
+
+# تحسينات الأداء
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/gif "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType image/svg+xml "access 1 year"
+  ExpiresByType application/javascript "access 1 year"
+  ExpiresByType text/css "access 1 year"
+  ExpiresByType font/ttf "access 1 year"
+  ExpiresByType font/otf "access 1 year"
+  ExpiresByType application/font-woff "access 1 year"
+  ExpiresByType application/font-woff2 "access 1 year"
+</IfModule>
+
+# ضغط الملفات
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/svg+xml
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE application/font-woff
+  AddOutputFilterByType DEFLATE application/font-woff2
+</IfModule>
+
+# رؤوس الأمان
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "no-referrer-when-downgrade"
+</IfModule>
