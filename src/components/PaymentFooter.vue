@@ -25,6 +25,17 @@
           <span class="text-2xl">💚</span>
           <span>{{ $t('payment.chamCash') }}</span>
         </button>
+
+        <!-- Telegram Contact Button -->
+        <a
+          href="https://t.me/raqmiplus"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full md:w-auto flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-l from-sky-500 to-blue-700 hover:from-sky-400 hover:to-blue-600 text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-slate-900"
+        >
+          <span class="text-2xl">✈️</span>
+          <span>تواصل عبر تيليجرام</span>
+        </a>
       </div>
     </div>
   </footer>
